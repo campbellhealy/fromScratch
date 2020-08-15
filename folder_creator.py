@@ -1,10 +1,9 @@
 # folder_creator.py
 from pathlib import Path
-import list_names
+# import list_names
 ''' 
 Using Python 3.5 +
 Windows 10
-
 exist_ok= True
 This prevents an exception error halting the process
 '''
@@ -18,10 +17,10 @@ This prevents an exception error halting the process
 # create_named_folders(list_names.male)
 # create_named_folders(list_names.female)
 # create_named_folders(list_names.surnames)
-
+file_path = 'C:/Users/User/Desktop/test/'
 # What I actually needed was just numbered folders
-for i in range (1, 300):
+for i in range(1, 10):
 
-    Path(f"C:/Users/User/Desktop/PyBites/{i}").mkdir(parents=True, exist_ok=True)
+    Path(f"{file_path}{i}").mkdir(parents=True, exist_ok=True)
 
-print('Done') # Console Message to tell user code has completed
+print('Done')  # Console Message to tell user code has completed
