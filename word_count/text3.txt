@@ -1,0 +1,3 @@
+acronym Python program will take a given phrase or text and convert it into its acronym. That is, a word that consists of the first letters of each word in the text.
+
+To make your acronym easier to read, go ahead and turn the letters into uppercase with Python. Also, think about how the program will take text as input from the user while separating that user input from the logic itself.
