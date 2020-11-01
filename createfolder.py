@@ -43,7 +43,7 @@ def create_folder_list(folders):
     for item in words:
         item = item[:-1] # This remove the character return
         items.append(item)
-        
+
     for item in items:
         fileDir = os.path.dirname(os.path.abspath(__file__))
         newfolder = item
@@ -58,4 +58,4 @@ def create_folder_list(folders):
 # make_new_path()
 # make_relative_path()
 # inputname_relative_path()
-create_folder_list('folders.txt')
+# create_folder_list('folders.txt')
