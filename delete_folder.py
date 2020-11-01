@@ -1,4 +1,8 @@
 # delete_folder.py
+'''
+This is a selection of code that will delete folders and files in a Windows 10 system.
+Written using Python 3.9
+'''
 
 import os
 import shutil # Only for folders with content
@@ -107,9 +111,9 @@ def del_folders_subfolder_content(thing):
 
 
 
-# Make sure not to lead with a \
+# Make sure not to lead with a \ in the argument
 
 # delete_file('rubbish\file1.txt')
 # del_empty_folder('rubbish\folder2')
 # del_content_folder('rubbish\folder3')
-del_folders_subfolder_content('rubbish\ffolder3')
+# del_folders_subfolder_content('rubbish\ffolder3')
