@@ -39,4 +39,4 @@ def one_week_cost(cities,days):
         print(f'Total cost for {city} is: £{total}')
 
 
-one_week_cost(cities, 4)
+one_week_cost(cities, 7)
