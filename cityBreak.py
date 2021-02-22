@@ -5,7 +5,7 @@ cities = {'Paris': {'Flight' : 200, 'Hotel' : 20, 'Car' : 200},
             'Dubai': {'Flight' : 370, 'Hotel' : 15, 'Car' : 80},
             'Mumbai': {'Flight' : 450, 'Hotel' : 10, 'Car' : 70},}
 
-def one_week_cost(cities):
+def one_week_cost(cities,days):
     '''
     Using the dict of dicts (cities), work out the cost of a seven day stay for each city.
 
@@ -27,13 +27,16 @@ def one_week_cost(cities):
                 
             if item == 'Flight':
                 flights = amount *2
+                amount = flights
             if item == 'Hotel':
-                hotel = amount *7
+                hotel = amount * days
+                amount = hotel
             if item == 'Car':
                 car = amount 
+                amount = car
             total = flights + hotel + car
             print(f' {item} Costing: £{amount}')
         print(f'Total cost for {city} is: £{total}')
 
 
-one_week_cost(cities)
+one_week_cost(cities, 4)
