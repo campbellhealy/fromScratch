@@ -1,4 +1,4 @@
-# add_colums_with_default_data.py
+# add_columns_with_default_data.py
 
 from csv import writer
 from csv import reader
